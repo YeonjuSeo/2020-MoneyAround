@@ -1,0 +1,17 @@
+.pocket{
+    border: 3px solid rgba(255, 255, 255, 1);
+    background-color: white;
+    border-radius: 30px;
+    text-align:center;
+    padding:7px;
+    width: 30%;
+    font-size:11px;
+    margin:10px 10px;
+}
+.account__purpose{
+    margin-bottom:15px;
+    font-weight:600;
+}
+.money{
+    font-size:25px;
+}
