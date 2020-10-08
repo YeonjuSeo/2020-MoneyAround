@@ -1,0 +1,18 @@
+.account-around{
+    background-color: var(--green);
+    border-radius: 15px;
+    border-bottom:1px solid var(--green);
+}
+.account-around__top{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-between;
+}
+.account-around__mid{
+    display:flex;
+    justify-content: center;
+}
+.account-around__bottom{
+    display:flex;
+    justify-content: flex-end;
+}
