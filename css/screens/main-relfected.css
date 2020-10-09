@@ -35,21 +35,83 @@
     position: absolute;
     top:60px;
 }
-.info__management{
-    margin-top:15px;
-    padding: 10px;
-}
-.info__management-title{
-    margin-bottom:15px;
-    width:50%;
-    border-bottom:1px solid var(--green);
-}
-.info__management-items{
-    margin-bottom:10px;
-}
-.next-page{
+.account__stock .account__purpose{
     display:flex;
-    justify-content: flex-end;
-    border:none;
-    text-decoration: none;
+    font-size: 25px;
+    margin-left:15px;
+}
+.account__stock .account__subtitle{
+    font-size:15px;
+    display:flex;
+    margin-left:7px;
+    margin-top:2px;
+}
+.stock__pie-graph{
+    display:flex;
+    position:relative;
+}
+.stock__pie-graph img{
+    width:60%;
+    height:40%;
+}
+.stock__indexes{
+    position:absolute;
+    left:235px;
+    top:20px;
+}
+.stock__index{
+    display:flex;
+    position:relative;
+}
+.stock__index:first-child i{
+    color:rgb(81, 158, 81);
+    margin-right:3px;
+}
+.stock__index:nth-child(2) i{
+    color:rgb(57, 152, 196);
+    margin-right:3px;
+}
+.stock__index:nth-child(3) i{
+    color:rgb(248, 203, 1);
+    margin-right:3px;
+}
+.stock__index:last-child i{
+    color:rgb(43, 116, 43);
+    margin-right:3px;
+}
+.stock__pie-graph-total{
+    position: absolute;
+    bottom:15px;
+    left:235px;
+}
+.stock__pie-graph-total div{
+    position: absolute;
+    top:-10px;
+    left:2px;
+}
+.stock__pie-graph-total span{
+
+    font-weight: bold;
+    color:tomato;
+}
+.stock__total-money{
+    font-size:24px;
+}
+.stock__items{
+    margin-left:10px;
+    margin-top:10px;
+}
+.stock__item{
+    display:flex;
+    justify-content: space-between;
+}
+.stock__item-column{
+    width:90px;
+    font-weight:bold;
+}
+.up{
+    color:tomato;
+}
+.down{
+    color:rgb(62, 157, 201);
 }
