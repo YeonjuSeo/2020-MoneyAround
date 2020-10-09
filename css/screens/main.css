@@ -1,12 +1,12 @@
 .account-around{
     background-color: var(--green);
     border-radius: 15px;
-    border-bottom:1px solid var(--green);
 }
 .account-around__top{
-    margin-top:50px;
+    margin-top:40px;
     display:flex;
     justify-content: space-between;
+
 }
 .account-around__mid{
     display:flex;
@@ -15,4 +15,41 @@
 .account-around__bottom{
     display:flex;
     justify-content: flex-end;
+}
+.account__living{
+    width:20%;
+    text-decoration: none;
+    color: #000000;
+}
+@keyframes goodWave{
+    0%, 100%{
+        transform: rotate(0deg);
+    }
+    20%,60%{
+        transform:rotate(5deg);
+    }
+    40%,80%{
+        transform:rotate(-5deg);
+    }
+}
+.account__stock{
+    animation: goodWave 1.5s ease-in-out;
+}
+.info__management{
+    margin-top:15px;
+    padding: 10px;
+}
+.info__management-title{
+    margin-bottom:15px;
+    width:50%;
+    border-bottom:1px solid var(--green);
+}
+.info__management-items{
+    margin-bottom:10px;
+}
+.next-page{
+    display:flex;
+    justify-content: flex-end;
+    border:none;
+    text-decoration: none;
 }
