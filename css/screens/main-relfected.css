@@ -1,0 +1,55 @@
+.account-around{
+    background-color: var(--green);
+    border-radius: 15px;
+    position: relative;
+    height:90vh;
+}
+.account-around__top{
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+}
+.account-around__mid{
+    display:flex;
+    justify-content: center;
+}
+.account-around__bottom{
+    display:flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.account__chunk,
+.account__installment{
+    width:20%;
+}
+.account__living{
+    width:30%;
+    text-decoration: none;
+    color: #000000;
+    position: absolute;
+    top:60px;
+}
+.account__stock{
+    width:90%;
+    height:50vh;
+    position: absolute;
+    top:60px;
+}
+.info__management{
+    margin-top:15px;
+    padding: 10px;
+}
+.info__management-title{
+    margin-bottom:15px;
+    width:50%;
+    border-bottom:1px solid var(--green);
+}
+.info__management-items{
+    margin-bottom:10px;
+}
+.next-page{
+    display:flex;
+    justify-content: flex-end;
+    border:none;
+    text-decoration: none;
+}
