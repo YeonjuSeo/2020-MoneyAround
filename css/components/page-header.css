@@ -1,0 +1,28 @@
+.page-header{
+    margin-top: 30px;
+    width:55%;
+}
+.page-header__row{
+    display:flex;
+    padding:3px;
+}
+.page-header__row:first-child{
+    border-bottom: 2.5px solid var(--green);
+}
+.page-header__row:nth-child(2){
+    color:var(--gray);
+}
+.page-header__title{
+    font-size:35px;
+}
+.page-header__money{
+    display:flex;
+    align-items: flex-end;
+    margin-left:5px;
+}
+.page-header__bank{
+    margin-left:5px;
+}
+.page-header__bank-account{
+    margin-left:5px;
+}
