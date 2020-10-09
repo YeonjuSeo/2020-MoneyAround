@@ -4,9 +4,11 @@
 /*Components*/
 @import "components/pocket.css";
 @import "components/status-bar.css";
+@import "components/page-header.css";
 
 /*Screens*/
 @import "screens/main.css";
+@import "Screens/living.css";
 
 body{
     height:100vh;
