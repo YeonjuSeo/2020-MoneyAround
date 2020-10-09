@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "variables.css";
+
+/*Components*/
+@import "components/pocket.css";
+@import "components/status-bar.css";
+
+/*Screens*/
+@import "screens/main-relfected.css";
+
+body{
+    height:100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color:white;
+    padding: 0px 5px;
+}    
+.main-screen{
+    padding: 25px;
+}
