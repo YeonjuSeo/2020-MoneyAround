@@ -35,6 +35,15 @@
 .account__stock{
     animation: goodWave 1.5s ease-in-out;
 }
+.stock__total{
+    font-size:15px;
+}
+.up{
+    color:tomato;
+}
+.down{
+    color:rgb(62, 157, 201);
+}
 .info__management{
     margin-top:15px;
     padding: 10px;
@@ -42,7 +51,7 @@
 .info__management-title{
     margin-bottom:15px;
     width:50%;
-    border-bottom:1px solid var(--green);
+    border-bottom:2.5px solid var(--green);
 }
 .info__management-items{
     margin-bottom:10px;
