@@ -12,6 +12,7 @@ body{
     height:100vh;
     font-family: 'Open Sans', sans-serif;
     background-color:white;
+    padding: 0px 5px;
 }    
 .main-screen{
     padding: 25px;
