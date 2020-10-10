@@ -64,6 +64,7 @@
 .info__expenses {
     display:flex;
     justify-content: center;
+    margin-left:5px;
 }
 .info__expenses img{
     height:33%;
@@ -71,15 +72,26 @@
     position:absolute;
     order:2;
 }
-.info__expense-item{
-    width:180%;
-    display:flex;
+.info__expense{
+    position:relative;
+    left:-77px;
+    order:1;
     margin-top:16px;
-    align-items: start;
+}
+.info__expense-item{
+    width:330%;
+    display:flex;
     justify-content: space-between;
+    margin-bottom:13px;
+}
+.info__expense-index{
+    width:80%;
 }
 .info__expense-out{
     position:absolute;
-    order:1;
-    left:175px;
+    left:75px;
+    width:80%;
+}
+.info__expense-left{
+    width:80%;
 }
