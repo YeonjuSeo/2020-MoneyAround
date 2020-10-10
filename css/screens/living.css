@@ -1,0 +1,85 @@
+.living__pie-graph img{
+    width: 90%;
+    height:60%;
+}
+.living__pie-graph{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.living__indexes{
+    position:absolute;
+    left:385px;
+    bottom:60px;
+    font-size:12px;
+}
+.living__index{
+    display:flex;
+    position:relative;
+}
+.living__index:first-child i{
+    color:rgb(81, 158, 81);
+    margin-right:3px;
+}
+.living__index:nth-child(2) i{
+    color:rgb(57, 152, 196);
+    margin-right:3px;
+}
+.living__index:nth-child(3) i{
+    color:rgb(248, 203, 1);
+    margin-right:3px;
+}
+.living__index:nth-child(4) i{
+    color:rgb(69, 97, 16);
+    margin-right:3px;
+}
+.living__index:nth-child(5) i{
+    color:rgb(51, 100, 139);
+    margin-right:3px;
+}
+.living__index:last-child i{
+    color:rgb(36, 38, 119);
+    margin-right:3px;
+}
+.living__pie-graph-total{
+    position: absolute;
+    top:127px;
+    left:185px;
+}
+.living__pie-graph-total div{
+    position: absolute;
+    top:-13px;
+    left:4px;
+    font-size:14px;
+}
+.living__pie-graph-total span{
+    font-weight: bold;
+    font-size:19px;
+}
+.living__total-money{
+    font-size:24px;
+}
+.info__expenses {
+    display:flex;
+    justify-content: center;
+}
+.info__expenses img{
+    height:33%;
+    width:33%;
+    position:absolute;
+    order:2;
+}
+.info__expense-item{
+    width:180%;
+    display:flex;
+    margin-top:16px;
+    align-items: start;
+    justify-content: space-between;
+}
+.info__expense-out{
+    position:absolute;
+    order:1;
+    left:175px;
+}
