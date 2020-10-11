@@ -7,6 +7,7 @@
 
 /*Screens*/
 @import "screens/main-relfected.css";
+@import "Screens/living.css";
 
 body{
     height:90vh;
