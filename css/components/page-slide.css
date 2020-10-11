@@ -1,0 +1,17 @@
+.page-slide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-3px;
+    color:var(--green);
+    
+}
+.page-slide i{
+    margin-right:2px;
+    color:var(--green);
+    text-decoration:none;
+}
+
+.page-slide a{
+    margin-top:-3px;
+}
