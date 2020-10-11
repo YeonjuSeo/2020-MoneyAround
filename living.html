@@ -24,7 +24,16 @@
         <header class="page-header">
             <div class="page-header__row">
                 <div class="page-header__title">생활비</div>
-                <div class="page-header__money">잔액: 26,800 원</div>
+                <div class="page-header__subtitle">
+                    <div class="page-header__lock">
+                        <i class="fas fa-lock"></i>
+                        100,000원
+                        <a href="#">
+                            <i class="fas fa-chevron-right fa-sm"></i>
+                        </a>
+                    </div>
+                    <div class="page-header__money">잔액: 69,800원</div>
+                </div>
             </div>
             <div class="page-header__row">
                 <div class="page-header__bank"> 신한</div>
@@ -64,7 +73,6 @@
                 <span class="living__total-money">493,200원</span>
             </div>
         </div>
-        <!--제목, 은행, 계좌, 그래프, 소비 순위, lock기능, 다른 사람 lock(한도)-->
         <div class="info__expenses">
             <img src="https://postfiles.pstatic.net/MjAyMDEwMTBfMTUw/MDAxNjAyMzM0MDQ0NDUz.oAsdYm9vJcvZV2J6kiCm5jz7vitL14aLma5xhUjmH2cg.3jUSlOGl7l3VJaS6CmFGVo5UVn2NWSNg-1Bh_yv66_Mg.PNG.kados22/pie_graph_about_living_expense.png?type=w773"/>
             <div class="info__expense">
@@ -72,7 +80,7 @@
                     <div class="info__expense-index">식비</div>
                     <div class="info__expense-out">278,000</div>
                     <div class="info__expense-left">
-                        <i class="fas fa-lock-open"></i>
+                        <i class="fas fa-wallet"></i>
                         22,000
                     </div>
                 </div>
@@ -80,7 +88,7 @@
                     <div class="info__expense-index">문화생활</div>
                     <div class="info__expense-out">74,200</div>
                     <div class="info__expense-left">
-                        <i class="fas fa-lock-open"></i>
+                        <i class="fas fa-wallet"></i>
                         25,800
                     </div>
                 </div>
@@ -88,7 +96,7 @@
                     <div class="info__expense-index">의류</div>
                     <div class="info__expense-out">56,000</div>
                     <div class="info__expense-left">
-                        <i class="fas fa-lock-open"></i>
+                        <i class="fas fa-wallet"></i>
                         14,000
                     </div>
                 </div>
@@ -96,7 +104,7 @@
                     <div class="info__expense-index">교통비</div>
                     <div class="info__expense-out">50,000</div>
                     <div class="info__expense-left">
-                        <i class="fas fa-lock"></i>
+                        <i class="fas fa-wallet"></i>
                         0
                     </div>
                 </div>
@@ -104,16 +112,25 @@
                     <div class="info__expense-index">생필품</div>
                     <div class="info__expense-out">22,000</div>
                     <div class="info__expense-left">
-                        <i class="fas fa-lock-open"></i>
+                        <i class="fas fa-wallet"></i>
                         8,000
                     </div>
                 </div>
             </div>
         </div>
+        <div class="page-slide">
+            <a href="main-reflected.html">
+                <i class="fas fa-circle fa-xs"></i>
+            </a>
+            <i class="fas fa-circle fa-xs now"></i>
+            <i class="fas fa-circle fa-xs"></i>
+            <i class="fas fa-circle fa-xs"></i>
+            <i class="fas fa-circle fa-xs"></i>
+        </div>
     </main>
-    <!--<a class="next-page" href="living.html">
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>-->
+    <div id="no-mobile">
+        <span>Your Screen Is Too Big</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
