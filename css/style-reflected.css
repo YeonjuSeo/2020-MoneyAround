@@ -6,18 +6,19 @@
 @import "components/status-bar.css";
 @import "components/no-mobile.css";
 @import "components/page-slide.css";
+@import "components/page-header.css";
 
 /*Screens*/
 @import "screens/main-relfected.css";
 @import "screens/living.css";
 @import "screens/splash-screen.css";
 
-body{
-    height:90vh;
-    font-family: 'Open Sans', sans-serif;
-    background-color:white;
-    padding: 0px 5px;
-}    
-.main-screen{
-    padding: 25px;
+body {
+  height: 90vh;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 0px 5px;
+}
+.main-screen {
+  padding: 25px;
 }
